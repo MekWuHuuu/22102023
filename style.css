@@ -1,0 +1,54 @@
+/* ธีมเค้ก - ใช้สีหวานและลวดลายขนม */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9d9c0;
+    color: #713827;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  
+  .navbar {
+    background-color: #ffc7d7; /* สีชมพูพาสเทล */
+  }
+  .navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    color: #ffcdcd !important;
+  }
+  .nav-link {
+    color: #ffcdcd !important;
+  }
+  .nav-link:hover {
+    color: #ef8b89 !important; /* สีชมพูเข้ม */
+  }
+  
+  /* Header */
+  header {
+    background-image: url('bg.jpg'); /* ใส่ภาพพื้นหลัง */
+    background-size: cover; /* ปรับภาพให้ครอบคลุมพื้นที่ */
+    background-position: center; /* จัดให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ไม่ให้ภาพซ้ำ */
+    color: #6b51ff; /* สีตัวอักษร */
+    text-shadow: 2px 2px 4px rgb(26, 79, 80); /* เงาของตัวอักษร */
+    padding: 50px 20px; /* ระยะห่างด้านใน */
+    height: 670px; /* กำหนดความสูง */
+    display: flex; /* ใช้ Flexbox จัดตำแหน่งเนื้อหา */
+    justify-content: center; /* จัดเนื้อหาให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดเนื้อหาให้อยู่ตรงกลางแนวตั้ง */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+}
+  header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.0rem;
+  }
+  header p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+  }
+  header .btn:hover {
+    background-color: #bcbcf2;
+  }
+
+  

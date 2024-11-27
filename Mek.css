@@ -1,0 +1,49 @@
+/* ธีมเค้ก - ใช้สีหวานและลวดลายขนม */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9d9c0;
+    color: #713827;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding-top: 60px; /* เพิ่มระยะห่างด้านบนให้กับ body เพื่อไม่ให้เนื้อหาโดน Navbar ทับ */
+}
+  
+  /* Navbar */
+  
+  .navbar {
+    background-color: #ffc7d7; /* สีชมพูพาสเทล */
+    position: fixed; /* ตรึง Navbar ให้อยู่ด้านบน */
+    top: 0;
+    left: 0;
+    width: 100%; /* ให้ครอบคลุมความกว้างของหน้าจอ */
+    background-color: #ffc7d7; /* สีพื้นหลัง */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    z-index: 1000; /* ให้ Navbar อยู่ชั้นบนสุด */
+  }
+  .navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    color: #ffcdcd !important;
+  }
+  .nav-link {
+    color: #ffcdcd !important;
+  }
+  .nav-link:hover {
+    color: #ef8b89 !important; /* สีชมพูเข้ม */
+  }
+  .profile-photo {
+    width: 300px; /* กำหนดความกว้างของรูป */
+    height: 300px; /* กำหนดความสูงของรูป */
+    border-radius: 50%; /* ทำให้รูปภาพเป็นวงกลม */
+    object-fit: cover; /* ปรับรูปให้พอดีกับขนาด */
+    border: 3px solid #000000; /* เพิ่มกรอบสีชมพูพาสเทล */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
+    display: block; /* จัดรูปให้เป็นบล็อก */
+    margin: 20px auto; /* จัดรูปให้อยู่กึ่งกลาง */
+}
